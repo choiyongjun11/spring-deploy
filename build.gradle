@@ -33,7 +33,6 @@ dependencies {
 }
 
 
-
 tasks.named('javadoc') {
 	source = sourceSets.main.allJava
 	options.memberLevel = JavadocMemberLevel.PRIVATE
